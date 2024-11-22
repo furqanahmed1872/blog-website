@@ -4,6 +4,12 @@ export default {
   theme: {
     extend: {},
   },
+  variants: {
+    extend: {
+      textColor: ['visited'],
+      backgroundColor: ['visited'],
+    }
+  },
   plugins: [],
 }
 

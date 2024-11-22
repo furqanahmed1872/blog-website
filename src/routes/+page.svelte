@@ -7,7 +7,7 @@
 </script>
 
 <!-- Wrapper -->
-<div class="relative h-screenoverflow-scroll">
+<div class="relative h-screen overflow-scroll">
   <!-- Fixed Background -->
   <div
     class="absolute inset-0 bg-fixed bg-cover bg-center z-0"
@@ -44,18 +44,43 @@
   </div>
 
   <!-- Featured Destinations Section -->
-  <div class="absolute -bottom-20 mx-36 flex flex-col items-center gap-3 p-5 px-4 bg-white shadow-2xl w-4/5  z-50">
-    <p class="text-2xl font-bold text-black">We travel the world, and tell you how it looks!</p>
+  <div class="h-full bg-inherit flex flex-col items-center gap-10 w-full">
+    <div class="p-5 px-4 bg-white shadow-2xl w-4/5">
+      <p class="text-2xl font-bold text-black">We travel the world, and tell you how it looks!</p>
     <p class="text-md font-normal text-black text-center">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat <br> ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. <br> Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. <br> Nam nec tellus a odio tincidunt auctor a ornare odio.</p>
+    </div>
+    
+  <div class="bg-white grid grid-cols-3  gap-5 w-4/5">
+    <div class=" col-span-2 flex flex-col gap-5 w-full h-40">
+    <div>
+      <img src="https://www.wildnatureimages.com/images/640/070620-014-The-Tetons.jpg" class="w-full" alt="wanderlast">
+      <p class="text-2xl text-black font-semibold">African Wildlife</p>
+      <p class="text-red-500 text-xl font-bold hover:text-blue-500 cursor-pointer focus:text-yellow-50 visited:text-green-400 ">Africa / Leave a Comment</p>
+      <p class="text-start ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Sed non mauris vitae erat consequat auctor </p>
+          
+    </div>
+    <div class=" bg-gray-900 h-7 grid grid-cols-2 gap-5 ">
+      <img src="https://plus.unsplash.com/premium_photo-1672115680958-54438df0ab82?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bW91bnRhaW5zfGVufDB8fDB8fHww" class="w-full" alt="w">
+
+
+    </div>
+
+   </div>
+    <div class="bg-neutral-600 col-span-1 w-full h-full ">
+
+    </div>
+
+
+  </div>
 
   </div>
   <div class="bg-white w-full h-40">
-
+    
   </div>
   <!-- About Section
+   <!-- Blog Section -->
+
   
-  
-  <!-- Blog Section -->
 
 
   <!-- Footer -->
