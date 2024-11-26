@@ -7,7 +7,7 @@
 </script>
 
 <!-- Wrapper -->
-<div class="relative bg-slate-100 h-screen overflow-hidden">
+<div class="relative bg-slate-100 h-full">
   <!-- Fixed Background -->
   <div
     class="absolute inset-0 bg-fixed bg-cover bg-center z-0"
@@ -161,11 +161,7 @@
 
   <!-- Footer -->
 </div>
-<footer class="bg-blue-500 text-white py-4">
-  <div class="mx-auto text-center">
-    <p>&copy; 2024 Wanderlust. All rights reserved.</p>
-  </div>
-</footer>
+
 
 
 
