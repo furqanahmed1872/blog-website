@@ -18,6 +18,12 @@ export default {
       backgroundColor: ['visited'],
     }
   },
+  variants: {
+    extend: {
+      textColor: ['visited'],
+      backgroundColor: ['visited'],
+    }
+  },
   plugins: [],
 }
 
