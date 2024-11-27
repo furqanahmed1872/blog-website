@@ -1,6 +1,6 @@
 <script>
-  import "../app.css";
-</script>
+    import "../app.css";
+  </script>
 
 <div class="w-full flex flex-col mx-auto">
   <slot />
@@ -11,3 +11,6 @@
     </div>
   </div>
 </div>
+
+
+
