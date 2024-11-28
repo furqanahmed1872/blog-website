@@ -4,66 +4,11 @@
   export let title = "Explore the World with Wanderlust";
   export let subtitle =
     "Discover breathtaking destinations, tips, and travel stories.";
-  export let buttonText = "Get Started";
+   let buttonText = "POST COMMENT";
 
   let isMenuOpen = false;
 
-  const articles = [
-    {
-      id:1,
-      imgUrl:'https://www.wildnatureimages.com/images/640/070620-014-The-Tetons.jpg',
-      title:"African Wildlife",
-      path:"Africa / Leave a Comment",
-      description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Sed
-          non mauris vitae erat consequat auctor`
-    },
-    {
-      id:1,
-      imgUrl:'https://www.wildnatureimages.com/images/640/070620-014-The-Tetons.jpg',
-      title:"African Wildlife",
-      path:"Africa / Leave a Comment",
-      description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Sed
-          non mauris vitae erat consequat auctor`
-    },
-    {
-      id:1,
-      imgUrl:'https://www.wildnatureimages.com/images/640/070620-014-The-Tetons.jpg',
-      title:"African Wildlife",
-      path:"Africa / Leave a Comment",
-      description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Sed
-          non mauris vitae erat consequat auctor`
-    },
-    {
-      id:1,
-      imgUrl:'https://www.wildnatureimages.com/images/640/070620-014-The-Tetons.jpg',
-      title:"African Wildlife",
-      path:"Africa / Leave a Comment",
-      description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Sed
-          non mauris vitae erat consequat auctor`
-    },
-    {
-      id:1,
-      imgUrl:'https://www.wildnatureimages.com/images/640/070620-014-The-Tetons.jpg',
-      title:"African Wildlife",
-      path:"Africa / Leave a Comment",
-      description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Sed
-          non mauris vitae erat consequat auctor`
-    },
-    {
-      id:1,
-      imgUrl:'https://www.wildnatureimages.com/images/640/070620-014-The-Tetons.jpg',
-      title:"African Wildlife",
-      path:"Africa / Leave a Comment",
-      description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Sed
-          non mauris vitae erat consequat auctor`
-    },
-  ]
+ 
 
 </script>
 
@@ -110,76 +55,78 @@
 
     <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold mb-4">{title}</h1>
     <p class="text-base sm:text-lg md:text-xl mb-6">{subtitle}</p>
-    <button
-      class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 sm:py-3 px-4 sm:px-6 rounded-full shadow-lg"
-    >
-      {buttonText}
-    </button>
+   
   </div>
 
 <!-- Wrapper -->
 <div class="container">
   <!-- Featured Destinations Section -->
-  <div class="relative w-full">
-    <div
-      class="absolute -top-20 z-50 w-full shadow-2xl"
-    >
-      <div
-        class="py-5 bg-white text-center"
-      >
-        <p class="text-2xl font-bold text-black">
-          We travel the world, and tell you how it looks!
-        </p>
-        <p class="text-md font-normal text-black text-center">
-          Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
-          lorem quis bibendum auctor, nisi elit consequat <br /> ipsum, nec
-          sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate
-          cursus a sit amet mauris. Morbi accumsan ipsum velit. <br /> Duis sed
-          odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-          ipsum velit. <br /> Nam nec tellus a odio tincidunt auctor a ornare odio.
-        </p>
-      </div>
+  <div class=" flex flex-col gap-5 w-full items-center p-5 ">
+    <!-- First Section -->
+    <div class="bg-white p-4 rounded shadow-lg flex flex-col gap-2">
+      <p class="text-sm text-gray-600"> <span class="hover:cursor-pointer">Leave a Comment / Africa / By harshadd </span> <br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Sed non mauris vitae erat consequat auctor eu in elit.Class aptent taciti sociosqu ad litora torquent per conubia nostra. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc.
+        
+        Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue.
+        
+        Proin gravida nibh vel velit auctor aliquet.
+      </p>
+      <img src= "/pic1.jpg" alt="" class="relative">
+        
+        <p>
+        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.
+        
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra.
+        Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
     </div>
-  </div>
+  
+    <!-- Second Section -->
+    <div class="bg-white p-4 rounded shadow-md">
+      <h2 class="text-xl font-bold text-gray-800">About The Author</h2>
+      <h3 class= "font-bold text-gray-800 hover:cursor-pointer" >harshadd</h3>
+      <p class="text-sm text-gray-600">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio..</p>
+    </div>
+  
+    <!-- Third Section -->
+    <div class="bg-white p-8 flex flex-col gap-3 w-full rounded shadow-md">
+      <h2 class="text-xl font-bold text-gray-800">Leave a Comment</h2>
+      <p class="text-sm text-gray-600">Your email address will not be published. Required fields are marked *</p>
+      <textarea
+      placeholder="Type here"
+      
+      name="text area"
+      
+      class="p-2 w-full h-40 border border-gray-300 rounded-sm focus:outline-none focus:ring focus:ring-blue-300 hover:bg-orange-200"
+    />
+    <div class="flex flex-row gap-4">
 
-  <div class="mt-40 grid grid-cols-6 gap-6">
-    <div class="col-span-4 flex flex-col gap-5 w-full">
-      <ArticleCard {...articles[0]} /> 
-      <div class="grid grid-cols-2 gap-5">
-        {#each articles as article}
-       <ArticleCard {...article} />
-        {/each}
-      </div>
+      <input
+      type="search"
+      id="gsearch"
+      name="gsearch"
+      placeholder="Name*"
+      class="p-2 w-full border border-gray-300 rounded-sm focus:outline-none focus:ring focus:ring-blue-300 hover:bg-orange-200"
+    />
+    <input
+    type="search"
+    id="gsearch"
+    name="gsearch"
+    placeholder="Email*"
+    class="p-2 w-full border border-gray-300 rounded-sm focus:outline-none focus:ring focus:ring-blue-300 hover:bg-orange-200"
+  />
+  <input
+  type="search"
+  id="gsearch"
+  name="gsearch"
+  placeholder="Website"
+  class="p-2 w-full border border-gray-300 rounded-sm focus:outline-none focus:ring focus:ring-blue-300 hover:bg-orange-200"
+  />
     </div>
-    <div class="flex flex-col col-span-2 gap-6 w-full">
-      <div class="p-6 bg-white">
-        <input
-          type="search"
-          id="gsearch"
-          name="gsearch"
-          placeholder="search"
-          class="p-2 w-full border border-gray-300 rounded-sm focus:outline-none focus:ring focus:ring-blue-300 hover:bg-orange-200"
-        />
-      </div>
-      <div class="p-6 bg-white">
-        <p>Recent Photos</p>
-        <p>1</p>
-        <p>2</p>
-        <p>3</p>
-      </div>
-      <div class="p-6 bg-white">
-        <p>Categories</p>
-        <p>1</p>
-        <p>2</p>
-        <p>3</p>
-      </div>
-      <div class="p-6 bg-white">
-        <p>Archives</p>
-        <p>1</p>
-        <p>2</p>
-        <p>3</p>
-      </div>
+    <button class="bg-slate-300 hover:bg-black text-white font-bold py-2 sm:py-3 px-4 sm:px-6  shadow-lg w-fit self-start">{buttonText}</button>
     </div>
-  </div>
+  
+  
+</div>
+  
 
 </div>
