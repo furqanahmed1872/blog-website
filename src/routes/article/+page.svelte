@@ -4,6 +4,8 @@
   export let title = "Explore the World with Wanderlust";
   export let subtitle =
     "Discover breathtaking destinations, tips, and travel stories.";
+   let buttonText1 = "Previous page";
+   let buttonText2 = "Next page";
    let buttonText = "POST COMMENT";
 
   let isMenuOpen = false;
@@ -86,6 +88,18 @@
       <h3 class= "font-bold text-gray-800 hover:cursor-pointer" >harshadd</h3>
       <p class="text-sm text-gray-600">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio..</p>
     </div>
+    <section class="flex flex-row justify-between w-full">
+      <button class="flex flex-row ">
+        <img src="/arrow-left.svg" alt="">
+        {buttonText1}
+
+      </button>
+      <button class="flex flex-row ">
+        
+        {buttonText2}
+        <img src="/arrow-right.svg" alt="">
+      </button>
+    </section>
   
     <!-- Third Section -->
     <div class="bg-white p-8 flex flex-col gap-3 w-full rounded shadow-md">

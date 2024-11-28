@@ -9,6 +9,7 @@ export default {
     extend: {
       backgroundImage: {
         'hero-header': "url('/mountain.jpeg')",
+        
       }
     },
   },
