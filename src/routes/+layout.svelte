@@ -15,7 +15,7 @@
 
     <div class="flex flex-col">
     Catogeries 
-    <p>1</p>
+    <p>Africa (3)</p>
      <p>2</p>
      <p>3</p>
      <p>4</p>

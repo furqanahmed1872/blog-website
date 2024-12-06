@@ -147,7 +147,8 @@
       <ArticleCard {...articles[0]} /> 
       <div class="grid grid-cols-2 gap-5">
         {#each articles as article}
-       <ArticleCard {...article} />
+        <a href="/article/{article.title}"><ArticleCard {...article} /></a>
+       
         {/each}
       </div>
     </div>
