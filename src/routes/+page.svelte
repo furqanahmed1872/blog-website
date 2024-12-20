@@ -1,6 +1,6 @@
 <script>
   import ArticleCard from "$lib/article-card.svelte";
-
+  import { blogs } from "$lib/data";
   export let title = "Explore the World with Wanderlust";
   export let subtitle =
     "Discover breathtaking destinations, tips, and travel stories.";
@@ -130,9 +130,9 @@
 
   <div class="mt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-6">
     <div class="col-span-1 lg:col-span-3 flex flex-col gap-5 w-full">
-      <ArticleCard {...articles[0]} />
+      <ArticleCard {...blogs[0]} />
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
-        {#each articles as article (article.id)}
+        {#each blogs.slice(1,7) as article (article.id)}
           <a href="/article/{article.title}">
             <ArticleCard {...article} />
           </a>
