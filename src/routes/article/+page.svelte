@@ -4,66 +4,13 @@
   export let title = "Explore the World with Wanderlust";
   export let subtitle =
     "Discover breathtaking destinations, tips, and travel stories.";
-  export let buttonText = "Get Started";
+   let buttonText1 = "Previous page";
+   let buttonText2 = "Next page";
+   let buttonText = "POST COMMENT";
 
   let isMenuOpen = false;
 
-  const articles = [
-    {
-      id:1,
-      imgUrl:'https://www.wildnatureimages.com/images/640/070620-014-The-Tetons.jpg',
-      title:"African Wildlife",
-      path:"Africa / Leave a Comment",
-      description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Sed
-          non mauris vitae erat consequat auctor`
-    },
-    {
-      id:1,
-      imgUrl:'https://www.wildnatureimages.com/images/640/070620-014-The-Tetons.jpg',
-      title:"African Wildlife",
-      path:"Africa / Leave a Comment",
-      description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Sed
-          non mauris vitae erat consequat auctor`
-    },
-    {
-      id:1,
-      imgUrl:'https://www.wildnatureimages.com/images/640/070620-014-The-Tetons.jpg',
-      title:"African Wildlife",
-      path:"Africa / Leave a Comment",
-      description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Sed
-          non mauris vitae erat consequat auctor`
-    },
-    {
-      id:1,
-      imgUrl:'https://www.wildnatureimages.com/images/640/070620-014-The-Tetons.jpg',
-      title:"African Wildlife",
-      path:"Africa / Leave a Comment",
-      description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Sed
-          non mauris vitae erat consequat auctor`
-    },
-    {
-      id:1,
-      imgUrl:'https://www.wildnatureimages.com/images/640/070620-014-The-Tetons.jpg',
-      title:"African Wildlife",
-      path:"Africa / Leave a Comment",
-      description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Sed
-          non mauris vitae erat consequat auctor`
-    },
-    {
-      id:1,
-      imgUrl:'https://www.wildnatureimages.com/images/640/070620-014-The-Tetons.jpg',
-      title:"African Wildlife",
-      path:"Africa / Leave a Comment",
-      description:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Sed
-          non mauris vitae erat consequat auctor`
-    },
-  ]
+ 
 
 </script>
 
